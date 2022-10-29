@@ -1,10 +1,14 @@
 <template>
-  <div></div>
+  <ul>
+    <li></li>
+  </ul>
 </template>
 
 <script>
 export default {
-
+  data() {
+    return {}
+  }
 }
 </script>
 
