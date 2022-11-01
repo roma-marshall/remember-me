@@ -5,7 +5,12 @@
 </template>
 
 <script>
+import LearningResource from './components/LearningResource'
+
 export default {
+  components: {
+    LearningResource
+  },
   data() {
     return {
       storedResources: {
