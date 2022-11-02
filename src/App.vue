@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import LearningResource from './components/LearningResource'
+import LearningResource from './components/learning-resources/LearningResource'
 
 export default {
   components: {
