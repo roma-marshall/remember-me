@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <li></li>
+    <learning-resource></learning-resource>
   </ul>
 </template>
 
