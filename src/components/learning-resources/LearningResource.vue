@@ -7,6 +7,10 @@
         </h3>
       </header>
     </div>
+    <p></p>
+    <nav>
+      <a href=""></a>
+    </nav>
   </li>
 </template>
 
