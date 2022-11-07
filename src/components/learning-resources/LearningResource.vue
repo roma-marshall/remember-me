@@ -9,13 +9,17 @@
     </div>
     <p></p>
     <nav>
-      <a href=""></a>
+      <a href="">View Resource</a>
     </nav>
   </li>
 </template>
 
 <script>
-
+export default {
+  props: {
+    
+  }
+}
 </script>
 
 <style scoped>
