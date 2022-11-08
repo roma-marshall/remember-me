@@ -5,11 +5,10 @@
         :key="res.id"
         :title="res.title"
         :description="res.description"
-        :link="res.link"
-    >
+        :link="res.link">
     </learning-resource>
   </ul>
-</template>
+</template>g
 
 <script>
 import LearningResource from './components/learning-resources/LearningResource'
