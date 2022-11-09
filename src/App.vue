@@ -1,5 +1,5 @@
 <template>
-  <stored-resources></stored-resources>
+  <stored-resources :resources="storedResources"></stored-resources>
 </template>
 
 <script>
