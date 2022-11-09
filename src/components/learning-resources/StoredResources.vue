@@ -12,8 +12,13 @@
 </template>
 
 <script>
+import LearningResource from "./LearningResource";
+
 export default {
-  props: ['resources']
+  props: ['resources'],
+  components: {
+    LearningResource
+  }
 }
 </script>
 
