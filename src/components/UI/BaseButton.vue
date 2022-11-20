@@ -1,9 +1,11 @@
 <template>
-  <button></button>
+  <button :type="type"></button>
 </template>
 
 <script>
-export default {}
+export default {
+  props: ['type']
+}
 </script>
 
 <style scoped>
