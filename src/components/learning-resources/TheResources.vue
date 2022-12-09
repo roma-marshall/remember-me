@@ -6,7 +6,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      selectedTab: 'stored-resources'
+    }
+  }
+}
 </script>
 
 <style scoped>
