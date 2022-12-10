@@ -11,6 +11,11 @@ export default {
     return {
       selectedTab: 'stored-resources'
     }
+  },
+  methods: {
+    setSelectedTabs(tab) {
+      
+    }
   }
 }
 </script>
