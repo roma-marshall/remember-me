@@ -3,6 +3,7 @@
     <base-button @click="selectedTab('stored-resources')">Stored Resources</base-button>
     <base-button @click="selectedTab('add-resource')">Add Resource</base-button>
   </base-card>
+  <component :is="selectedTab"></component>
 </template>
 
 <script>
