@@ -35,7 +35,9 @@ export default {
     };
   },
   provide() {
-    return {}
+    return {
+      resources: this.storedResources
+    }
   },
   methods: {
     setSelectedTabs(tab) {
