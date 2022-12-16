@@ -34,6 +34,9 @@ export default {
       ]
     };
   },
+  provide() {
+    return {}
+  },
   methods: {
     setSelectedTabs(tab) {
       this.selectedTab = tab;
