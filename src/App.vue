@@ -5,6 +5,7 @@
 
 <script>
 import TheHeader from "@/components/layouts/TheHeader";
+import TheResources from "@/components/learning-resources/TheResources";
 
 export default {
   components: {
