@@ -1,6 +1,6 @@
 <template>
   <the-header title="RememberMe"></the-header>
-  <stored-resources :resources="storedResources"></stored-resources>
+  <the-resources></the-resources>
 </template>
 
 <script>
@@ -9,7 +9,8 @@ import TheResources from "@/components/learning-resources/TheResources";
 
 export default {
   components: {
-    TheHeader
+    TheHeader,
+    TheResources
   },
   data() {
     return {
