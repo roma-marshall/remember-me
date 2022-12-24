@@ -1,5 +1,7 @@
 <template>
-  <h2>Add Resource</h2>
+  <base-card>
+    <form action=""></form>
+  </base-card>
 </template>
 
 <script>
