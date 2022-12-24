@@ -9,6 +9,10 @@
         <label for="description">Description</label>
         <textarea id="description" name="description" rows="3"></textarea>
       </div>
+      <div class="form-control">
+        <label for="link">Link</label>
+        <input id="link" name="link" type="text">
+      </div>
     </form>
   </base-card>
 </template>
