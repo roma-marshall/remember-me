@@ -11,7 +11,7 @@
       </div>
       <div class="form-control">
         <label for="link">Link</label>
-        <input id="link" name="link" type="text">
+        <input id="link" name="link" type="url">
       </div>
     </form>
   </base-card>
