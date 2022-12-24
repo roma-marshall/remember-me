@@ -1,7 +1,7 @@
 <template>
   <base-card>
     <form>
-      <div>
+      <div class="form-control">
         <label for="title">Title</label>
         <input id="title" name="title" type="text">
       </div>
