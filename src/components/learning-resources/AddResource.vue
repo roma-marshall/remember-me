@@ -1,8 +1,10 @@
 <template>
   <base-card>
     <form>
-      <label for="title">Title</label>
-      <input id="title" name="title" type="text">
+      <div>
+        <label for="title">Title</label>
+        <input id="title" name="title" type="text">
+      </div>
     </form>
   </base-card>
 </template>
