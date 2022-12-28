@@ -20,6 +20,12 @@
   </base-card>
 </template>
 
+<script>
+export default {
+  methods: {}
+}
+</script>
+
 <style scoped>
 label {
   font-weight: bold;
