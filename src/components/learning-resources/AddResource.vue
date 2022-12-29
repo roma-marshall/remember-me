@@ -3,7 +3,7 @@
     <form>
       <div class="form-control">
         <label for="title">Title</label>
-        <input id="title" name="title" type="text">
+        <input id="title" name="title" type="text" ref="">
       </div>
       <div class="form-control">
         <label for="description">Description</label>
