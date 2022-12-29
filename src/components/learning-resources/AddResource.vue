@@ -22,7 +22,9 @@
 
 <script>
 export default {
-  methods: {}
+  methods: {
+    submitData() {}
+  }
 }
 </script>
 
