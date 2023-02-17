@@ -50,6 +50,15 @@ export default {
   methods: {
     setSelectedTabs(tab) {
       this.selectedTab = tab;
+    },
+    addResource(title, description, url) {
+      const newResource = {
+        id: new Date().toISOString(),
+        title: title,
+        description: description,
+        link: url
+      };
+      this.storedResources.unshift();
     }
   }
 }
