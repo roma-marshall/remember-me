@@ -23,7 +23,12 @@
 <script>
 export default {
   methods: {
-    submitData() {}
+    submitData() {
+      const enteredTitle = this.$refs.titleInput.value;
+      const enteredDescription = this.$refs.descriptionInput.value;
+      const enteredUrl = this.$refs.urlInput.value;
+
+    }
   }
 }
 </script>
