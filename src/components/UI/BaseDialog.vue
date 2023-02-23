@@ -1,3 +1,7 @@
 <template>
-  <dialog open></dialog>
+  <dialog open>
+    <header>
+      <slot></slot>
+    </header>
+  </dialog>
 </template>
