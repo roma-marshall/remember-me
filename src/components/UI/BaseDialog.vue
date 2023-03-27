@@ -5,6 +5,9 @@
         <h2> {{ title }}</h2>
       </slot>
     </header>
+    <section>
+      <slot></slot>
+    </section>
   </dialog>
 </template>
 
